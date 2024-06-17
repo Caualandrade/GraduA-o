@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             labels: ['Cálculo I', 'Física A', 'Banco de dados I', 'Start', 'Meio ambiente'],
             datasets: [{
                 label: 'Notas',
-                data: [85, 90, 78, 88, 76],
+                data: [8.5, 9.0, 7.8, 8.8, 7.6],
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgba(54, 162, 235, 1)',
                 borderWidth: 1
@@ -51,12 +51,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const data = {
         labels: [
-            'Comp. Curri. Obrigatórios',
-            'Comp. Curri. Optativos',
-            'Estágio Curri. Obrigatório',
-            'Extensão',
-            'Dedicação ao TCC',
-            'Atividades Complementares'
+            'CCO',
+            'CCOP',
+            'ECO',
+            'EXT',
+            'DTCC',
+            'AC'
         ],
         datasets: [
             {
