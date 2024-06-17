@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraduAção</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GraduAção - Agenda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="feedback.html">Feedbacks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Suas Responsabilidades</h2>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Nova tarefa">
+            <input type="date" id="taskDate">
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="taskList"></ul>
+    </main>
+    <script src="agenda.js"></script>
+</body>
+</html>
